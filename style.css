@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/images/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: rgb(11, 12, 12);
+
+}
+
+.countdown-container{
+    display: flex ;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+    margin-top: 10rem;
+    font-weight: normal;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    font-weight: bold;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem ;
+    font-weight: bolder;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: rgb(230, 47, 23);
+    font-weight: bold;
+    opacity: 0.7;
+}
+.footer a{
+    text-decoration: none;
+}
